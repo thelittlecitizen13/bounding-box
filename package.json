@@ -1,0 +1,27 @@
+{
+  "name": "bounding-box",
+  "version": "1.0.0",
+  "description": "bounding box module for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run testonly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelittlecitizen13/bounding-box.git"
+  },
+  "keywords": [
+    "boundingbox",
+    "bounding-box"
+  ],
+  "author": "Amit Assa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelittlecitizen13/bounding-box/issues"
+  },
+  "homepage": "https://github.com/thelittlecitizen13/bounding-box#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "seedrandom": "^3.0.5"
+  }
+}
