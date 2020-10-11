@@ -1,11 +1,8 @@
 {
   "name": "bounding-box",
   "version": "1.0.0",
-  "description": "bounding box module for react",
+  "description": "bounding box component for react",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run lint && npm run testonly"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thelittlecitizen13/bounding-box.git"
@@ -20,8 +17,40 @@
     "url": "https://github.com/thelittlecitizen13/bounding-box/issues"
   },
   "homepage": "https://github.com/thelittlecitizen13/bounding-box#readme",
+  "bundleDependencies": false,
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "seedrandom": "^3.0.5"
+    "prop-types": "^15.6.1",
+    "seedrandom": "^2.4.3"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@sambego/storybook-state": "^2.0.1",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/react": "^5.3.13",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.11.6",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "webpack": "^2.5.1"
+  },
+  "engines": {
+    "npm": "^3.0.0"
   }
 }
