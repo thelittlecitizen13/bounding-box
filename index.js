@@ -157,7 +157,7 @@ var Boundingbox = function (_Component) {
                   selectedBox.index = index;
                   selectedBox.dimensions = box;
                   if(_this2.state.hoverIndex !== selectedBox.index);
-                    {box.handleClick(box.id)}
+                    {box.handleClick(box.data)}
                 }
               }
             });
@@ -572,7 +572,7 @@ Boundingbox.defaultProps = {
     var tenPercent = width / 10;
     var thirtyPercent = 3 * tenPercent;
     var seventyPercent = 7 * tenPercent;
-    var fixedHeight = -height*1.2;
+    var fixedHeight = height //-height*1.2;
     ctx.strokeStyle = color;
     ctx.lineWidth = lineWidth;
     ctx.beginPath();
